@@ -1,0 +1,8 @@
+hoten=(input('Ho ten:'))
+Songaycong=int(input('So ngay cong:'))
+Dongiangaycong=int(input('Don gia ngay cong:'))
+Hesophucap=float(input('He so phu cap:'))
+Tamung=int(input('Tam ung:'))
+Luong=float(Dongiangaycong*Songaycong*Hesophucap)
+Thuclinh=float(Luong-Tamung)
+print('Nhan vien '+hoten+', Co tien Luong=',round(Luong,1),'va Thuc linh=',round(Thuclinh,1))
